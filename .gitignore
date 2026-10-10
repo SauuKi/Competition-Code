@@ -1,0 +1,30 @@
+# Keil MDK 编译产物
+*.o
+*.crf
+*.d
+*.axf
+*.htm
+*.lnp
+*.dep
+*.iex
+*.map
+*.lst
+*.build_log.htm
+*.hex
+*.bin
+Objects/
+Listings/
+Listing/
+Output/
+build/
+DebugConfig/
+
+# 个人设置与 IDE
+*.uvguix.*
+*.uvoptx
+.vscode/
+.idea/
+
+# 系统文件
+Thumbs.db
+desktop.ini

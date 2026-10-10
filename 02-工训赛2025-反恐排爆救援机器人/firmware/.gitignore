@@ -1,0 +1,35 @@
+# ========== Keil MDK 编译产物（每次编译重新生成，不入库）==========
+/Output/
+/Listing/
+/Project/RVMDK（uv5）/build/
+
+# ========== Keil 用户个性化文件（每台电脑不同，不入库）==========
+*.uvguix.*
+*.uvoptx
+*.uvopt.bak
+*.bak
+*.dep
+EventRecorderStub.scvd
+
+# ========== 兜底的中间/输出文件 ==========
+*.o
+*.crf
+*.d
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.lnp
+*.iex
+*.htm
+
+# ========== 编辑器 / 系统杂项 ==========
+.vscode/uv4.log*
+.vscode/ipch/
+/Project/RVMDK（uv5）/.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store
+*~
